@@ -1,27 +1,44 @@
-# 喵伴 AstroBox 发布资源
+# 喵伴 AstroBox V2 发布包
 
-喵伴是一款 Xiaomi Vela 手环/手表快应用：戴在手上的治愈小猫咪，轻养成、慢生活。
+本目录用于公开 GitHub 仓库 `miaoban-astrobox-release`。
 
-应用采用付费兑换码激活。购买地址：
+## 资源信息
 
-https://www.ifdian.net/item/54971e167e8c11f1bb1e5254001e7c00
+- 名称：喵伴
+- 类型：quick_app
+- 价格：付费资源，应用内使用购买的兑换码激活
+- 作者：阿呜
+- 版本：1.0.3
+- 下载文件：downloads/miaoban-1.0.3.rpk
 
 ## 支持设备
 
-- 小米手环 9 / 10
-- 小米手环 9 Pro / 10 Pro
-- Redmi Watch 5 / 6
+- xmb9
+- xmb9p
+- xmb10
+- xmb10nfc
+- xmb10p
+- xmrw5
+- xmrw5xring
+- xmrw6
 
-## 仓库文件
+## 媒体素材
 
-- `manifest_v2.json`：AstroBox NG V2 发布资源清单。
-- `downloads/miaoban-1.0.2.rpk`：喵伴 1.0.2 应用安装包。
-- `media/icon.png`：200×200 PNG。
-- `media/cover.png`：1200×800、3:2 PNG。
-- `media/preview-*.png`：游戏页面和三个型号的双倍像素四宫格预览图。
+- media/icon.png
+- media/cover.png
+- media/preview-decorate.png
+- media/preview-map.png
+- media/preview-clean.png
+- media/preview-blessing.png
+- media/preview-wonderland.png
+- media/preview-device-pro9.png
+- media/preview-device-rw6.png
+- media/preview-device-band10.png
 
-仓库只保留 V2 投稿结构；后续通过 CreatorConsole 或网页版提交时仅选择“提交 V2”。
+## AstroBox V2 索引行草稿
 
-## 版本历史策略
+提交官方源时把 `<commit>` 替换成公开 GitHub 仓库的提交短哈希。
 
-本仓库只公开当前可下载版本，不保留旧 RPK、旧版本标签或 Release。旧版本如需彻底撤回，会重写仓库历史并强制更新 `main`。
+```csv
+com.awu.watch.petpal,喵伴,quick_app,jianding24,miaoban-astrobox-release,<commit>,media/icon.png,media/cover.png,实用工具;宠物;养成;小猫;治愈;付费,xiaomi,xmb9;xmb9p;xmb10;xmb10nfc;xmb10p;xmrw5;xmrw5xring;xmrw6,paid
+```
